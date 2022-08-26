@@ -1,7 +1,7 @@
 /* .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); } */
 html {
-  font-size: 62.5%;
+  font-size: 62.5%;https://github.com/abdullah-nawbahar/product-preview/blob/main/style.css
 }
 * {
   margin: 0;
@@ -48,7 +48,7 @@ html {
 .primary-heading {
   line-height: 0.9;
   font-weight: 700;
-  font-size: 3.4rem;
+  font-size: 2.8rem;
   color: hsl(212, 21%, 14%);
   margin: 1.8rem 0;
 }
