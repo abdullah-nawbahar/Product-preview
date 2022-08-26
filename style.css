@@ -1,0 +1,111 @@
+/* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 144rem;
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-content {
+  display: flex;
+}
+
+.product-image {
+  width: 28rem;
+  height: 42rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.product-text {
+  padding: 3rem 4.8rem 3rem 3rem;
+  width: 28rem;
+  height: 40rem;
+  background-color: hsl(0, 0%, 100%);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.perfume {
+  font-family: sans-serif;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: hsl(228, 12%, 48%);
+}
+
+.primary-heading {
+  line-height: 0.9;
+  font-weight: 700;
+  font-size: 3.4rem;
+  color: hsl(212, 21%, 14%);
+  margin: 1.8rem 0;
+}
+
+.product-description {
+  font-family: sans-serif;
+  line-height: 1.4;
+  font-size: 1.4rem;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 1.8rem;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.new-price {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+  margin-right: 1.8rem;
+}
+
+.original-price {
+  font-size: 1.4rem;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+.btn {
+  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 2.4rem;
+  transition: background-color 0.5s;
+}
+
+.btn:link,
+.btn:visited {
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.6rem;
+  background-color: hsl(158, 36%, 37%);
+  height: 4.8rem;
+  justify-items: center;
+  align-items: center;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.btn:active,
+.btn:hover {
+  background-color: hsl(120, 63%, 11%);
+}
+
+.abdullah {
+  font-size: 1.4rem;
+  color: rgb(3, 3, 32);
+  margin: 2rem;
+}
